@@ -1,0 +1,35 @@
+footer {
+	float: left;
+	padding-left:5%;
+	border: 1px solid red;
+	background-color: #343434;
+	width: 99%;
+	padding: 1%;
+	color: white;
+	border-top: 5px solid #59595a;
+	}
+	
+#cont {
+	color: green;
+	border: 1px solid red;	
+}
+
+#social {
+	padding-left:5%;
+}
+
+#site_name{
+	
+}
+
+#clear {
+	
+}
+
+#footer_menu{
+	
+}
+
+#rights{
+	
+}
