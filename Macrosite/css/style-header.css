@@ -5,6 +5,7 @@ header {
 	padding: 1%;
 	color: white;
 	border-bottom: 5px solid #59595a;
+	height: 12%;
 }
    
 header>div#logo>a>img {
@@ -33,7 +34,6 @@ header>div#logo>a>img {
 }
      /* Нужна одоптивность Нужна одоптивность Нужна одоптивность Нужна одоптивность */
 #logo {
-
 }
 
 #about {
