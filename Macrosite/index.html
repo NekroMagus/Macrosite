@@ -40,7 +40,33 @@
 				</a>
 				</div>				
 			</header>
-	
+	                <nav>
+					       <div id="menuShow"><i class="fas fa-bars"></i></div>
+					       <div id="hideMenu">
+		                       <a href="">Warface</a>
+					           <a href="">Neverwinter Online</a>
+					           <a href="">Рейтинг авторов</a>
+						       <a href="">Игровые новости</a>
+						       <a href="">Вопрос и Ответ</a>
+						       <a href="">Форум</a>  
+						    </div>
+				      <div id="search">
+						<span>Поиск</span>
+						    <i class="fas fa-search"></i>
+						</div>
+				            <div id="mobileMenu"> 
+					          <a href="">Warface</a><br>
+					           <a href="">Neverwinter Online</a><br>
+					           <a href="">Рейтинг авторов</a><br>
+						       <a href="">Игровые новости</a><br>
+						       <a href="">Вопрос и Ответ</a><br>
+						       <a href="">Форум</a>
+							   <hr>  
+					           <a href="">Регистрация</a>
+							   <a href="">Войти</a>
+							   
+					        </div>
+					</nav>   
 			<article>
 				<section>
 					<div id="wf">Warface</div>
@@ -50,14 +76,6 @@
 					<div id="nwo">Neverwinter Online</div>
 				</section>
 			</article>
-	
-	        <nav>
-		        <ul>
-			        <li>Warface</li>
-						<li>Neverwinter Online</li>
-		        </ul>
-	        </nav>
-			
 		</div>
 	</div>
 	
@@ -79,5 +97,19 @@
 					<a href="" title="Google+"><i class="fab fa-google-plus"></i></a>
 	            </div>			
 	        </footer>
+		</div>	
+		 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+	    <script>
+		    $('#menuShow').click (function () {
+			    if ($('#mobileMenu').is(':visible'))
+                    $('#mobileMenu').hide ();
+                  else
+                    $('#mobileMenu').show ();
+            });  
+
+			  widow.onresize = function (event) {
+			     $('#mobileMenu').hide ();
+				 };
+		 </script>
 </body>
 </html>

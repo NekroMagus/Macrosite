@@ -1,11 +1,13 @@
 header {
+	
 	border: 1px solid red;
 	background-color: #343434;
 	width: 99%;
 	padding: 1%;
 	color: white;
 	border-bottom: 5px solid #59595a;
-	height: 7%;
+	height: 8%;
+	font-family: 'Roboto Slab', serif;
 }
    
 header>div#logo>a>img {
@@ -38,15 +40,17 @@ header>div#logo>a>img {
 }
 
 #about {
+	 display: inline;
 	 float: left;
      width: 40%;
 	 border: 1px solid red;
 }
 
 #reg_auth {
+	 display: inline;
      float: right;
      width: 30%;
-	 margin-top: -66px;
+	 margin-top: -60px;
 	 border: 1px solid red;
 }
 

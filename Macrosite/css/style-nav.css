@@ -1,5 +1,61 @@
 nav{
-color:red;
-background-color:#4C4A41;
+background-color: white;
+width: 99.4%;
+padding: 0.3%;
+float: left;
+border-bottom: 2px solid #EEEEEE;
 border: 1px solid red;
 }
+nav a{
+  	
+  color: #323232;
+  font-size: 1.5em;
+  margin-left: 5%;
+  border: 1px solid red;
+}
+nav>a:hover {
+	color: #868686;
+}
+#hideMenu {
+	display: inline;
+}
+#menuShow {
+   display: inline;
+   font-size: 1.4em;
+   margin-left: 20px;
+   float: left;
+   margin-top: 4px;
+   cursor: pointer;
+}
+#mobileMenu {
+	display: none;
+	width: 100%;
+	float: left;
+}
+
+#search {
+	float: right;
+	color: #7d7d7d;
+	cursor: pointer;
+	font-size: 1.5em;
+	margin-right:10px;
+	border: 1px solid red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
