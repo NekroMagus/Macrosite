@@ -13,8 +13,13 @@ nav a{
   margin-left: 5%;
   border: 1px solid red;
 }
-nav>a:hover {
+nav a:hover {
 	color: #868686;
+}
+.fixed {
+	position: fixed;
+	top: 0;
+	opaciry: 0.97;
 }
 #hideMenu {
 	display: inline;
@@ -41,7 +46,6 @@ nav>a:hover {
 	margin-right:10px;
 	border: 1px solid red;
 }
-
 
 
 
