@@ -6,7 +6,7 @@ header {
 	padding: 1%;
 	color: white;
 	border-bottom: 5px solid #59595a;
-	height: 8%;
+	height: 5%;
 	font-family: 'Roboto Slab', serif;
 }
    
@@ -80,17 +80,17 @@ header>div#logo>a>img {
 	color: white;
 }
 
-#reg_auth>a:hover>div.btn {
+.btn:hover {
 	border-bottom: 2px solid rgba(217, 91, 72, 1);
 	margin-top: 3px;
 }
 
-#reg_auth>a:active>div.btn {
+.btn:active {
 	border-bottom: 0;
 	margin-top: 9px;
 }
 
-#reg_auth>a>div.btn {
+.btn {
 	float: right;
 	margin-right: 3%;
 	margin-bottom: 7px;
@@ -101,6 +101,7 @@ header>div#logo>a>img {
 	text-shadow: #454545 0 0 2px;
 	border-bottom: 4px solid rgba(217, 91, 72, 1);
 	font-family: 'Roboto Slab', serif;
+	color: white;
 }
   
 

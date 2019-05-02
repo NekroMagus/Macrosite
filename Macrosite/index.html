@@ -8,6 +8,7 @@
 	<link href="./css/style-nav.css" rel="stylesheet" type="text/css"/>
 	<link href="./css/style-footer.css" rel="stylesheet" type="text/css"/>
 	<link href="./css/style-article.css" rel="stylesheet" type="text/css"/>
+	<link href="./css/style-main_page.css" rel="stylesheet" type="text/css"/>
 	<link href="./img/logo.ico" rel="shortcut icon" type="image/x-icon"/>
 	<link href="./css/all.css" rel="stylesheet">
 </head>
@@ -63,10 +64,37 @@
 						       <a href="">Форум</a>
 							   <hr>  
 					           <a href="">Регистрация</a>
-							   <a href="">Войти</a>
-							   
+							   <a href="">Войти</a>						
 					        </div>
-					</nav>   
+					</nav> 
+                  
+				 <div id="main">
+				      <div id="news">
+					     <h2 class="heading">Новинки</h2>
+                           <div style="clear: both"><br></div>
+						     <?php
+							    for ($i = 0; $i < 6; $i++)
+								     echo ' 
+									<div id="article">
+							   <img src="https://xgames-online.ru/media/k2/items/cache/36fdb1a35cd2f54f95cf2119fb5bc7ed_M.jpg" alt="Test" title="Test">
+							   <span>В Neverwinter вам предстоит встать на защиту одного из самых почитаемых городов сеттинга D&D Forgotten Realms и лично участвовать в его возрождении. Эпический сюжет, лихие сражения, классическая ролевая система - все это ждет отважных героев, готовых начать свои приключения в удивительном мире Neverwinter!</span>
+							</div> 
+									';
+							    ?>
+							      <a href="" title="В деталях">	   
+					                    <div class="btn">
+						                 Изучить 
+                                       </div>					 
+				                  </a>
+					   </div>						
+					</div> 
+			  <aside>	
+                  <div id="courses">
+					     <h2 class="heading">Видео курсы</h2>
+                          <div style="clear: both"><br></div>						 
+					</div>       
+               </aside>
+					
 			<article>
 				<section>
 					<div id="wf">Warface</div>

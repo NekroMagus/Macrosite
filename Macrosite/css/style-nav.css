@@ -1,7 +1,25 @@
+
+@media (min-width: 785px) {
+	#menuShow {
+		display: none;
+		visibility: hidden;
+	}	
+}
+
+@media (max-width: 784px) {
+	#hideMenu {
+		display: none;
+		visibility: hidden;
+	}	
+}
+
+
+
+
 nav{
 background-color: white;
 width: 99.4%;
-padding: 0.3%;
+padding:7px 0.3%;
 float: left;
 border-bottom: 2px solid #EEEEEE;
 border: 1px solid red;
@@ -14,12 +32,19 @@ nav a{
   border: 1px solid red;
 }
 nav a:hover {
-	color: #868686;
+	color: #ED695C;
 }
 .fixed {
 	position: fixed;
 	top: 0;
 	opaciry: 0.97;
+	padding:4px 0.3%;
+}
+.fixed a {
+	font-size: 1.3em;
+}
+.fixed #search {
+	font-size: 1.2em;
 }
 #hideMenu {
 	display: inline;
@@ -37,6 +62,8 @@ nav a:hover {
 	width: 100%;
 	float: left;
 }
+
+
 
 #search {
 	float: right;
