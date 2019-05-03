@@ -1,28 +1,21 @@
 
- body{
-    
-	
- }	
+ 
 
 article {
 	border: 1px solid red;
+	height: 100%;
 }
 
 #wf{
 	
 	
-		margin-bottom: 21px;
-	float: left;
-	text-align: center;
+	height: 100%;	
 	margin-left: 10%;
 	border: 1px solid red;
 	font-size: 2.0vw;
 }
 #nwo{
-	
-	margin-bottom: 21px;
-	float: left;
-	text-align: center;
+	height: 100%;
 	margin-left: 10%;
 	border: 1px solid red;
 	    

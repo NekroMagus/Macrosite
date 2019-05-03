@@ -6,7 +6,7 @@ header {
 	padding: 1%;
 	color: white;
 	border-bottom: 5px solid #59595a;
-	height: 5%;
+	height: 4%;
 	font-family: 'Roboto Slab', serif;
 }
    
@@ -34,7 +34,7 @@ header>div#logo>a>span {
 header>div#logo>a>img { 
   margin-left: 0%;
 }
-     /* Нужна одоптивность Нужна одоптивность Нужна одоптивность Нужна одоптивность */
+   
 #logo {
 	margin-top: -13px;
 }

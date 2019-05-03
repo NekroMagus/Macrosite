@@ -8,11 +8,12 @@
 body, html {
 	width: 100%;
 	height: 100%;  
- }
- 
+}
+
 body {
 	background-color: #F7F5F7;
-} 
+}
+
 a {
 	 color: #fa713e;
 	 text-decoration: none;
@@ -54,9 +55,9 @@ hr {
 	padding: 0;
 }
 
-#conten {
-	flex: 1 0 auto;
-	
+.conten {
+	flex-grow: 1 0 auto;
+
 }
 
 #wrapper {
@@ -64,4 +65,3 @@ hr {
 	flex-direction: column;
 	height: 100%;
 }
-

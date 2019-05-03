@@ -1,7 +1,6 @@
 footer {
 	float: left;
 	padding-left:5%;
-	border: 1px solid red;
 	background-color: #343434;
 	width: 99%;
 	padding: 1%;
@@ -9,7 +8,7 @@ footer {
 	border-top: 5px solid #59595a;
 	font-family: 'Roboto Slab', serif;
 	border: 1px solid red;
-	}
+}
 	
 #cont {
 	color: green;
