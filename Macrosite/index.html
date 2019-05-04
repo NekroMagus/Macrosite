@@ -3,6 +3,7 @@
 
 <head>
 	<title>Killer Games</title>
+
 	<link href="./css/style-body.css" rel="stylesheet" type="text/css"/>
 	<link href="./css/style-header.css" rel="stylesheet" type="text/css"/>
 	<link href="./css/style-nav.css" rel="stylesheet" type="text/css"/>
@@ -11,6 +12,9 @@
 	<link href="./css/style-main_page.css" rel="stylesheet" type="text/css"/>
 	<link href="./img/logo.ico" rel="shortcut icon" type="image/x-icon"/>
 	<link href="./css/all.css" rel="stylesheet">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+	<script type="text/javascript" src="./js/mobileMenu.js"></script>	
+       
 </head>
 
 <body>
@@ -122,28 +126,10 @@
 				    <a href="" title="Группа FaceBoook"><i class="fab fa-facebook-square"></i></a>
 					<a href="" title="Канал YouTube"><i class="fab fa-youtube"></i></a>
 					<a href="" title="Google+"><i class="fab fa-google-plus"></i></a>
-	            </div>			
+	            </div>		
+					 
 	        </footer>
 		</div>	
-		 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
-	    <script>
-		    $('#menuShow').click (function () {
-			    if ($('#mobileMenu').is(':visible'))
-                    $('#mobileMenu').hide ();
-                  else
-                    $('#mobileMenu').show ();
-            });  
-               $(document).scroll (function () {
-			      if ($(document).width ()> 785) {
-				    if ($(document).scrollTop () > $('header').height () + 10)
-					   $('nav').addClass ('fixed');
-					else
-					   $('nav').removeClass ('fixed');
-				}	   
-			});		   
-			  widow.onresize = function (event) {
-			     $('#mobileMenu').hide ();
-			};
-		 </script>
+
 </body>
 </html>

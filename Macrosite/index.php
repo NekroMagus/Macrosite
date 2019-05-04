@@ -17,6 +17,8 @@
 	<meta neme="viewport" content="width=device-width, initial-scale=1">
 	<link href="./img/logo.ico" rel="shortcut icon" type="image/x-icon"/>
 	<link href="./css/all.css" rel="stylesheet">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+        <script href="./js/mobileMenu.js"></script>
 </head>
 
 <body>
@@ -131,25 +133,7 @@
 	            </div>			
 	        </footer>
 		</div>	
-		 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
-	    <script>
-		    $('#menuShow').click (function () {
-			    if ($('#mobileMenu').is(':visible'))
-                    $('#mobileMenu').hide ();
-                  else
-                    $('#mobileMenu').show ();
-            });  
-               $(document).scroll (function () {
-			      if ($(document).width ()> 785) {
-				    if ($(document).scrollTop () > $('header').height () + 10)
-					   $('nav').addClass ('fixed');
-					else
-					   $('nav').removeClass ('fixed');
-				}	   
-			});		   
-			  widow.onresize = function (event) {
-			     $('#mobileMenu').hide ();
-			};
-		 </script>
+
+
 </body>
 </html>
