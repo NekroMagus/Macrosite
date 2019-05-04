@@ -55,13 +55,14 @@ hr {
 	padding: 0;
 }
 
-.conten {
+#content {
+		
 	flex-grow: 1 0 auto;
+
 
 }
 
 #wrapper {
 	display: flex;
 	flex-direction: column;
-	height: 100%;
 }
