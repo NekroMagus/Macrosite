@@ -17,8 +17,8 @@
 	<meta neme="viewport" content="width=device-width, initial-scale=1">
 	<link href="./img/logo.ico" rel="shortcut icon" type="image/x-icon"/>
 	<link href="./css/all.css" rel="stylesheet">
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
-        <script href="./js/mobileMenu.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+	<script type="text/javascript" src="./js/mobileMenu.js"></script>	
 </head>
 
 <body>
