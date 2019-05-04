@@ -114,6 +114,7 @@
 				</section>
 			</article>
 		</div>
+				</div>	
 		        <footer>
 		        <div id="site_name"><span>Killer Games</span> - дуэт верстальщиков</div>
 				<div id="clear"></div>
@@ -132,7 +133,7 @@
 					<a href="" title="Google+"><i class="fab fa-google-plus"></i></a>
 	            </div>			
 	        </footer>
-		</div>	
+
 
 
 </body>
