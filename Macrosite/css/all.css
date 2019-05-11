@@ -1,3 +1,7 @@
+
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker|Roboto+Slab|Suez+One');
+
+
 *, *:after, *:before {
 box-sizing: border-box;
 padding: 0;
@@ -12,11 +16,32 @@ list-style: none;
 a {
 text-decoration: none;
 outline: none;
+
+	 transition: all.6s ease;
+	-ms-transition: all.6s ease;
+	-o-transition: all.6s ease;
+	-moz-transition: all.6s ease;
+	-webkit-transition: all.6s ease;
+}
+
+a:hover {
+	color: #c34f25;
+	text-decoration: none;
+	transition: all.6s ease;
+	-ms-transition: all.6s ease;
+	-o-transition: all.6s ease;
+	-moz-transition: all.6s ease;
+	-webkit-transition: all.6s ease;	
+	-ms-transition: all .6s ease;
 }
 
 img {
 display: block;
 width: 100%;
+    -ms-transition: all.3s ease;
+	-o-transition: all.3s ease;
+	-moz-transition: all.3s ease;
+	-webkit-transition: all.3s ease;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -31,6 +56,7 @@ font-size: 14px;
 line-height: 1;
 color: #373737;
 background: #f7f7f7;
+
 }
 
 /* добавим очистку потока для всех контейнеров, внутри которых задано обтекание дочерних элементов */
@@ -47,3 +73,11 @@ width: 100%;
 max-width: 960px;
 padding: 0 15px;
 } 
+hr {
+	display: block;
+	height: 1px;
+	border: 0;
+	border-top: 1px soid #ccc;
+	margin: 1em 0;
+	padding: 0;
+}
